@@ -151,9 +151,10 @@ div[class$="col"] {
    background-repeat: no-repeat;
 }
 
-article {
+h5 {
     font-size: 9px;
-    color: #b2b2b2;
+    font-weight: 400;
+    color: #9a9a9a;
 }
 
 .row-down-columns {
