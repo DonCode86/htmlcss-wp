@@ -131,15 +131,18 @@ div[class$="col"] {
 
 .img-left {
    background: url("../img/img-1.jpg");
-   height: 120px;
-   width: 100%;
-   background-position:  center ;
-   background-size: cover;
-   background-repeat: no-repeat;
 }
 
 .img-middle {
    background: url("../img/banner-2.jpg");
+   
+}
+
+.img-right {
+   background: url("../img/img-3.jpg");
+}
+
+.img-left, .img-middle, .img-right {
    height: 120px;
    width: 100%;
    background-position:  center ;
@@ -147,14 +150,6 @@ div[class$="col"] {
    background-repeat: no-repeat;
 }
 
-.img-right {
-   background: url("../img/img-3.jpg");
-   height: 120px;
-   width: 100%;
-   background-position:  center ;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
 article {
     font-size: 9px;
     color: #b2b2b2;
