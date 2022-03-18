@@ -55,7 +55,6 @@ a {
 }
 
 h1 {
-    color: black;
     font-weight: 700;
     /* font-size: 30px; */
 }
@@ -66,25 +65,27 @@ h2{
 }
 
 h3 {
-    color: black;
-    font-size: 10px;
     margin: 7px 0px;
 }
 
 h4 {
     text-align: center;
-    font-size: 10px;
-    font-weight: 400;
+    font-weight: 400; 
+}
+
+h1, h3, h4 {
     color: black;
 }
 
-p {
+h3, h4, p, small {
     font-size: 10px;
+}
+
+p {
     font-weight: 300;
 }
 
 small {
-    font-size: 10px;
     color: #b2b2b2;
 }
 
