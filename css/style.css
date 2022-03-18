@@ -61,14 +61,21 @@ h1 {
 }
 
 h2{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
 }
 
-h4 {
+h3 {
     color: black;
     font-size: 10px;
     margin: 7px 0px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    color: black;
 }
 
 p {
@@ -131,6 +138,23 @@ div[class$="col"] {
    background-repeat: no-repeat;
 }
 
+.img-middle {
+   background: url("../img/banner-2.jpg");
+   height: 120px;
+   width: 100%;
+   background-position:  center ;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.img-right {
+   background: url("../img/img-3.jpg");
+   height: 120px;
+   width: 100%;
+   background-position:  center ;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
 article {
     font-size: 9px;
     color: #b2b2b2;
@@ -139,5 +163,8 @@ article {
 .row-down-columns {
     min-height: 40px;
     margin: 5px auto;
-    background-color: #8801fe;
+}
+
+.heart {
+    color: red;
 }
