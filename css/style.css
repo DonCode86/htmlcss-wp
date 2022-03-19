@@ -203,6 +203,6 @@ h5:hover, h3:hover {
     background-color: white;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 5s;
     border-radius: 100%; 
 }   
