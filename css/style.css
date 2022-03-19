@@ -39,6 +39,12 @@ a {
     color: #b2b2b2;
     margin-right: 10px;
 }
+
+li:hover a {
+    background-color: #cbbcb6;
+    color: white;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -110,7 +116,7 @@ small {
 }
 
 .row-up-columns {
-    min-height: 50px;
+    min-height: 40px;
     line-height: 18px;
 }
 
