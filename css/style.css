@@ -169,7 +169,7 @@ h5 {
 
 .hero:hover .overlay {
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
 .hero:hover .banner-text {
