@@ -180,13 +180,13 @@ h5 {
     font-weight: bold;
 }
 
-.right-col:hover, .middle-col:hover, .left-col:hover {
+/* .right-col:hover, .middle-col:hover, .left-col:hover {
     background-color: #cccccc;
 }
 
 h5:hover, h3:hover {
     color: white;
-}
+} */
 
 .heart {
     color: red;
