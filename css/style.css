@@ -164,10 +164,45 @@ h5 {
 }
 
 .row-down-columns {
-    min-height: 40px;
     margin: 5px auto;
+}
+
+.hero:hover .overlay {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.hero:hover .banner-text {
+    color: black;
+}
+
+.banner-text:hover h2, .banner-text:hover p {
+    font-weight: bold;
+}
+
+.right-col:hover, .middle-col:hover, .left-col:hover {
+    background-color: #cccccc;
+}
+
+h5:hover, h3:hover {
+    color: white;
 }
 
 .heart {
     color: red;
 }
+
+@-webkit-keyframes blackWhite {  
+    0% { background-color: white; }
+    50% { background-color: #cccccc; }
+    100% { background-color: white; }
+}
+
+.row-down-columns {
+    /* height: 100px; */
+    background-color: white;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 10s;
+    border-radius: 100%; 
+}   
