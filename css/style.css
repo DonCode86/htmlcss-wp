@@ -96,6 +96,7 @@ small {
     background-position: 0px;
     min-height: 300px;
     margin: 20px auto;
+    border-radius: 5px;
 }
 
 .bg-black {
