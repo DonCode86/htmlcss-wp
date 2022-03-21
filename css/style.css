@@ -142,7 +142,6 @@ div[class$="col"] {
 
 .img-middle {
    background: url("../img/banner-2.jpg");
-   
 }
 
 .img-right {
@@ -179,14 +178,6 @@ h5 {
 .banner-text:hover h2, .banner-text:hover p {
     font-weight: bold;
 }
-
-/* .right-col:hover, .middle-col:hover, .left-col:hover {
-    background-color: #cccccc;
-}
-
-h5:hover, h3:hover {
-    color: white;
-} */
 
 .heart {
     color: red;
